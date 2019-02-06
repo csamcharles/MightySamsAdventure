@@ -1,0 +1,194 @@
+body{
+	font-family: roboto;
+	text-align: center;
+	cursor: pointer;
+	font-size: 2em;
+	overflow: hidden;
+}
+
+#menubody {
+	background-color: #86E2D5;
+}
+
+.text{
+	background-color: transparent !important;
+}
+
+.button {
+	width: 100%;
+	text-align: center;
+	color: #E08283;
+	margin-top: 5%;
+	border-bottom: 1px solid #E08283;
+	opacity: 0.8;
+	transition: border 0.5s, background-color 0.5s, opacity 0.2s;
+}
+
+.title {
+
+	width: 100%;
+	margin: 7% auto;
+	top: 10%;
+	font-family: roboto, helvitica, arial;
+	font-size: 7vw;
+	text-align: center;
+	border: 1px solid #E08283;
+	animation: fadein 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.box5{
+	height: 5em;
+	width: 5em;
+	display: inline-block;
+}
+
+.box10{
+	height: 10em;
+	width: 10em;
+	display: inline-block;
+}
+
+.deadcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#columnLeft {
+	z-index: 2;
+	text-align: left;
+	height: 140%;
+	width: 20%;
+	position: absolute;
+	top: -20%;
+	left: -5%;
+	transform: rotate(-5deg);
+	transition: all 0.5s ease;
+}
+#blockerLeft {
+	z-index: 2;
+	height: 40%;
+	width: 10%;
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	transform: rotate(-5deg);
+}
+
+#columnRight {
+	z-index: 2;
+	text-align: right;
+	height: 140%;
+	width: 20%;
+	position: absolute;
+	top: -20%;
+	right: -5%;
+	transform: rotate(5deg);
+	transition: all 0.5s ease;
+}
+
+#blockerRight {
+	z-index: 2;
+	height: 40%;
+	width: 10%;
+	position: absolute;
+	top: 35%;
+	right: 20%;
+	transform: rotate(5deg);
+}
+
+.columns{
+	display: inline-block;
+	height: 125%;
+}
+
+.lines{
+	z-index: 5;
+	position: relative;
+	border-radius: 10px;
+	margin: auto -1.5%;
+	display: inline-block;
+	height: 0%;
+	width: 1.5%;
+	bottom: 0%;
+	transition: height 1s ease;
+	overflow: hidden;
+}
+
+#cL1 {	
+	animation: columns 0.5s linear 0.5;
+	animation-fill-mode: forwards;
+}
+
+#cL2 {	
+	animation: columns 0.5s linear 0.3 0.3s;
+	animation-fill-mode: forwards;
+}
+
+#cL3 {	
+	animation: columns 0.5s linear 0.1 0.5s;
+	animation-fill-mode: forwards;
+}
+
+#cR1 {	
+	animation: columns 0.5s linear 0.5;
+	animation-fill-mode: forwards;
+}
+
+#cR2 {	
+	animation: columns 0.5s linear 0.3 0.3s;
+	animation-fill-mode: forwards;
+}
+
+#cR3 {	
+	animation: columns 0.5s linear 0.1 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.fullvert{
+	height: 100%;
+}
+
+.fullhoz{
+	width: 100%;
+}
+
+#columns{
+	width: 100%;
+	height: 100%;
+}
+
+
+#menu {
+	z-index: 1;
+	margin-top: 3%;
+	width:50%;
+	text-align: center;
+	animation: slidedown 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+#button1 {
+	z-index: 2;
+}
+#button2 {
+	z-index: 1;
+	animation: slidedown2 0.5s linear 0.1s;
+	animation-fill-mode: forwards;
+}
+
+#button3{
+	animation: slidedown3 0.5s linear 0.1s;
+	animation-fill-mode: forwards;
+}
+
+.line {
+	z-index: 4;
+	position:absolute;
+	width: 9px;
+	border-radius: 10px;
+	top: -10px;
+}
+

@@ -1,0 +1,57 @@
+@keyframes slidedown {
+	from {top: 40%; opacity: 0;}
+	to {top: 50%; opacity: 1;}
+}
+
+@keyframes slidedown2 {
+	from{top: 15%;}
+	to{top: 25%;}
+}
+
+@keyframes slidedown3 {
+	from{top: 30%;}
+	to{top: 50%;}
+}
+
+@keyframes columns {
+	from{width: 0%;}
+	to{width: 95%;}
+}
+
+@keyframes fadein {
+	from{opacity:0;}
+	to{opacity:0.86;}
+}
+.button:hover{
+	background-color: #C5EFF7;
+	border-color: transparent;
+	opacity: 0.76;
+}
+
+#columnLeft:hover > #L1 {
+	height: 80%;
+}
+
+#columnLeft:hover > #L2 {
+	height: 100%;
+}
+
+#columnLeft:hover > #L3 {
+	height: 70%;
+}
+
+#columnRight:hover > #R1 {
+	height: 80%;
+}
+
+#columnRight:hover > #R2 {
+	height: 100%;
+}
+
+#columnRight:hover > #R3 {
+	height: 70%;
+}
+
+.title:hover {
+	border-color: #C5EFF7;
+}

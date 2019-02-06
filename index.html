@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Super Sam's</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/colours.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+		<script src="js/menu.js"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		
+	</head>
+	
+	<body id= "menubody" onLoad="init()">				
+		<div class = "title text salmon" id="super_sam">SUPER SAM'S</div>
+		<div id="columns">
+			<div id="blockerLeft" class = "lightblue"></div>
+			<div id="columnLeft" class = "lightblue">			
+				<div id="cL1" class="columns salmon"></div>
+				<div id="L1" class="lines salmon"></div>
+				<div id="cL2" class="columns orange"></div>
+				<div id="L2" class="lines orange"></div>
+				<div id="cL3" class="columns yellow"></div>
+				<div id="L3" class="lines skyblue"></div>
+			</div>
+			<div id="blockerRight" class = "lightblue"></div>
+			<div id="columnRight" class = "lightblue">				
+				<div id="R3" class="lines skyblue"></div>
+				<div id="cR3" class="columns yellow"></div>
+				<div id="R2" class="lines orange"></div>
+				<div id="cR2" class="columns orange"></div>
+				<div id="R1" class="lines salmon"></div>
+				<div id="cR1" class="columns salmon"></div>
+			</div>
+			<div class="deadcenter box10" id="menu">
+				<div id="button1" class = "button menutext" onclick="window.location.href = './game/theAdventure.html'"> PLAY </div>
+				<div id="button2" class = "button menutext"> HIGHSCORES </div>
+				<div id="button3" class = "button menutext"> SETTINGS </div>
+			</div>
+		</div>
+	</body>
+</html>
